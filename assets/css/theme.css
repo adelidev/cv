@@ -1,0 +1,41 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+}
+
+#navbar ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#navbar li {
+    list-style: none;
+    display: inline-block;
+}
+
+#navbar a {
+    text-align: center;
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    background-color: blanchedalmond;
+}
+
+#header {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#profil-pic {
+    border-radius: 100%;
+}
+
+
+/*# sourceMappingURL=theme.css.map */

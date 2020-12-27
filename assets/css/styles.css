@@ -1,0 +1,71 @@
+/*GENERAL*/
+li {
+    list-style: none;  
+}
+
+.item-title {
+    background-color: white;
+    text-align: center;
+    margin-top: 2%;
+    width: auto;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cv-item {
+    min-height: 1000px;
+}
+
+/*HEADER*/
+#profil-pic {
+    border: 10px solid white;
+    border-radius: 200%;
+    width: 200px;
+    margin-top: 20px ;
+}
+
+/*COMPETANCES*/
+.comp-item {
+    color: black;  
+    text-align: center;
+    border-radius: 20px;
+    font-size: 25px;
+    display: inline;
+    margin-bottom: 10px;
+}
+
+/*PARCOURS*/
+#timeline {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#tl-line {
+    height: 85%;
+    position: absolute;
+    max-width: 1%;
+    margin-top: 30px;
+    background-color: white;
+    padding: 2px;
+    
+}
+.tl-year {
+    text-align: center;
+    font-size: 35px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+.tl-descr {	
+    text-align: left;
+    margin-right: 10px;
+    padding: 10px;
+}
+.tl-marker {
+    z-index: 10;
+    position: absolute;
+}
